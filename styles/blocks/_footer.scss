@@ -1,0 +1,17 @@
+@use "../variables" as *;
+
+.footer {
+  margin: 0;
+  height: 240px;
+  background-color: $color-background;
+
+  &__title {
+    color: white;
+    font-size: 70px;
+  }
+}
+
+
+.section.shop_section {
+  background-color: black;
+}

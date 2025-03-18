@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=M+PLUS+Rounded+1c&display=swap");
+
+body {
+  
+  margin: 0;
+  font-family: "Arsenal SC", serif;
+  color: rgb(31, 29, 37);
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.header__cart {
+  display: flex;
+  margin-left: auto;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: rgb(53, 9, 213);
+}
+
+.header__link:hover {
+  color: rgb(31, 29, 37);
+}
+
+.header__count {
+  margin: 0;
+}
+
+.button {
+  color: black;
+}
+
+.page__margin-bottom {
+  margin-bottom: 50px;
+}
+
+.shop {
+  display: flex;
+  justify-content: center;
+}
+
+.shop__container {
+  max-width: 1200px;
+  height: auto;
+  width: 100%;
+}
+
+.shop__header {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.shop__search {
+  border: 0;
+  border-bottom: 1px solid rgb(31, 29, 37);
+  margin-bottom: 40px;
+  width: 320px;
+  font-family: "Arsenal SC", serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.shop__search:focus {
+  outline: 0;
+}
+
+.shop__products {
+  display: grid;
+  grid-template-columns: repeat(3, 342px);
+  gap: 40px 60px;
+}
+
+.shop__product {
+  width: 300px;
+  border: 1px solid rgb(31, 29, 37);
+  padding: 20px;
+}
+
+.shop__title {
+  display: flex;
+  justify-content: center;
+  max-height: 100px;
+  margin: 0;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.shop__button {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(31, 29, 37);
+  border-color: rgb(31, 29, 37);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: 0;
+  transition: 0.2s;
+}
+
+.shop__button:hover {
+  border: 1px solid rgb(31, 29, 37);
+  background-color: rgb(255, 176, 7);
+  color: rgb(31, 29, 37);
+}
+
+.shop__button:active {
+  transform: scale(0.95);
+}
+
+.shop__description {
+  text-align: center;
+}
+
+.shop_image {
+  display: flex;
+  margin: 0;
+  padding: 40px;
+  width: 200px;
+  height: 200px;
+}
+
+.shop__price {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  font-weight: 200;
+  text-decoration: line-through;
+  padding: 3px;
+}
+
+.shop__prc {
+  display: flex;
+  justify-content: center;
+}
+
+.shop__prices {
+  color: red;
+  font-weight: 500;
+}
+
+.shop__section {
+  background-color: black;
+}
+
+.footer {
+  margin: 0;
+  height: 240px;
+  background-color: rgb(31, 29, 37);
+}
+
+.footer__title {
+  color: white;
+  font-size: 70px;
+}
+
+.section.shop_section {
+  background-color: black;
+}
+
+/*# sourceMappingURL=index.css.map */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: calc(33.333% - 40px);
+  box-sizing: border-box;
+}
+
+.product h3 {
+  margin-top: 0;
+}
+
+.product .price {
+  color: #f00;
+  font-weight: bold;
+}
+
+.product .add-to-cart {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.product .add-to-cart:hover {
+  background-color: #218838;
+}
+
+/* Стили для секции корзины */
+.cart {
+  margin-top: 30px;
+}
+
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart th,
+.cart td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.cart .total {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.cart .remove-item {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cart .remove-item:hover {
+  background-color: #c82333;
+}
+
+.lokpok {
+  display: flex;
+  margin: 0;
+  padding: 40px;
+  width: 50px;
+  height: 50px;
+}
+

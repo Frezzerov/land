@@ -1,0 +1,15 @@
+{
+  "name": "land",
+  "version": "1.0.1",
+  "description": "land page",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frezzerov",
+  "license": "ISC",
+  "dependencies": {
+    "saas": "^1.0.0",
+    "sass": "^1.85.0"
+  }
+}
